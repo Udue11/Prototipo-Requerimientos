@@ -248,7 +248,7 @@ public class VentanaCambioContrasenia extends javax.swing.JFrame {
                     jLabelErrorcClave.setText("La confirmacion de clave no es igual");
                 }
             }else{
-                JOptionPane.showMessageDialog(null, "El correo es incorrecto.");
+                jLabelErrorCorreo.setText("El correo es incorrecto.");
             }
         }else{
             if(correoValido){
