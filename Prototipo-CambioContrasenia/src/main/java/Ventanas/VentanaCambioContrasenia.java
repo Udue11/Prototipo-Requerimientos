@@ -237,7 +237,7 @@ public class VentanaCambioContrasenia extends javax.swing.JFrame {
                 }
                 if(nClaveValido){
                     jLabelErrornClave.setText("El formato de la contraseña es incorrecto");
-                    JOptionPane.showMessageDialog(null, "La contraseña debe tener 8 caracteres minimo, una mayuscula minimo y un numero minimo.");
+                    JOptionPane.showMessageDialog(null, "La contraseña debe tener como minimo:\n    Ocho caracteres\n    Una mayuscula\n    Una minuscula\n    Un numero minimo");
                 }
                 return;
             }
